@@ -1,0 +1,80 @@
+h1{
+    color: black;
+    background-color: gold;
+    text-align: center;
+    border-style: none;
+    border-color: yellow;
+    font-size: 80px;
+
+}
+h2{
+    color: black;
+    background-color: gold;
+    text-align: center;
+    border-style: none;
+    border-color: yellow;
+    font-size: 60px;
+}
+
+#p1{
+    color: black;
+    background-color: purple;
+    text-align: left;
+    border-color: darkgreen;
+    font-size: 30px;
+
+}
+
+#p2{
+    color: black;
+    background-color: purple;
+    text-align: left;
+    border-style: none;
+    border-color: yellow;
+    font-size: 30px;
+}
+
+#p3{
+    color: black;
+    background-color: purple;
+    text-align: left;
+    border-style: none;
+    border-color: yellow;
+    font-size: 30px;
+}
+#p4{
+    color: black;
+    background-color: purple;
+    text-align: left;
+    border-style: none;
+    border-color: yellow;
+    font-size: 30px;
+}
+body{
+    background-color: gold;
+}
+table, th, tr {
+    border: 10px solid;
+    border-color: brown;
+    color: aliceblue;
+    align-items: flex-start;
+    font-size: 40px;
+
+
+tr{
+ background-color: black;
+}
+
+    
+
+th{
+    background-color: gold;
+}
+}
+a{
+    
+    color: purple;
+    background-color: gold;
+    font-size: 35px;
+    border-color: gold;
+}
