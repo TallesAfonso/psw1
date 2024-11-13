@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Oi lata</title>
+</head>
+<body>
+    <div class="box">
+        <p>Vamo tentar de novo</p>
+    <div class="botton-container">
+<button>
+    <a id="yes">Sim</a>
+</button>
+
+<button id="no">Não</button>
+
+
+    </div>
+    </div>
+
+    <script>
+        let button = document.getElementById('no')
+        let heigth = window.innerHeight-50
+        let width = window.innerWidth-50
+
+        button.addEventListener('mouseover' , function(){
+            button.style.position='absolute'
+            button.style.top=Math.random()*heigth+'px'
+            button.style.left=Math.random()*width+'px'
+        })
+
+        const btn = document.getElementById('yes')
+        btn.addEventListener('click', function(){
+            alert('Te amo, prometo fazer valer a pena <3')
+        })
+
+    </script>
+
+</body>
+</html>
+
+
+body{
+    background-color: #1d1c47;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}   
+
+*{
+    text-decoration: none;
+}
+
+.box {
+    font-size: 20px;
+    color: white;
+    height: 250px;
+    width: 350px;
+    border-radius: 16px;
+    background: #191919;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content:
