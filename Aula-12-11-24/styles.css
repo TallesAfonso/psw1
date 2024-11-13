@@ -1,0 +1,64 @@
+.titulo{
+    justify-content: space-between;
+    flex-direction: row;
+    height: 200px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+
+}
+
+#div1{
+    color: white;
+    height: 100%;
+    width: 20%;
+    background-color: black;
+
+}
+
+#div2{
+    height: 100%;
+    width: 20%;
+    background-color: red;
+
+}
+
+#div3{
+    height: 100%;
+    width: 20%;
+    background-color: yellow;
+
+}
+
+.divbaixa{
+    justify-content: space-evenly
+    flex-direction: row;
+    height: 500px;
+    background-color: green;
+    display: flex;
+
+
+}
+
+
+#divbaixa1{
+    background-color: darkmagenta;
+    height: 500px;
+    width: 500px;
+    display: flex;
+
+}
+
+#divbaixa2{
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
